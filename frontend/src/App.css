@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.cards{
+  display: grid;
+  /* flex: 2; */
+  grid-template-columns: auto auto auto auto;
+  margin-left: 50px;
+  
+  
+}
+
+.createTask{
+  background-color:white;
+  height: 20vh;
+  width: 40%;
+  box-shadow: 2px 2px 2px 2px grey;
+  z-index: 11;
+  margin: auto;
+  padding: 30px 0 30px 0;
+  margin-top: 6rem;
+  position: absolute;
+  left: 30%;
+  border-radius: 25px;
+}
+.createTask form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.taskInput{
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.cards div{
+  box-shadow: 2px 2px 2px 2px grey;
+  height: 200px;
+  width: 200px;
+  margin: 40px 0 50px 50px;
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+
+.cards div:hover{
+  transform: scale(1.2);
+
+}
+.btn{
+  padding: 15px;
+  border-radius: 8px;
+  background-color: grey;
+  font-weight: bold;
+  color: white;
+  font-size: medium;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.btn:hover{
+  background-color: aliceblue;
+  color: black;
+  box-shadow: 2px 2px 2px 2px grey;
+}
